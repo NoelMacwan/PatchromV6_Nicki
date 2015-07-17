@@ -5,7 +5,7 @@
 
 PORT_BUILD=/home/noelmacwan/patchrom/build
 
-PORT_ROOT=/home/noelmacwan/patchrom/patchrom
+PORT_ROOT=/home/noelmacwan/patchrom
 
 # The original zip file, MUST be specified by each product
 local-zip-file     := stockrom.zip
