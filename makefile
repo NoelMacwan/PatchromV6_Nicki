@@ -26,7 +26,7 @@ local-miui-removed-apps :=
 
 local-miui-removed-priv-apps := 
 
-local-miui-modified-apps := MiuiFramework
+local-miui-modified-apps := miuisystem MiuiHome
 
 # All apps need to be removed from original ZIP file
 #local-remove-apps   := 
