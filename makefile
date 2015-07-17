@@ -26,7 +26,7 @@ local-miui-removed-apps :=
 
 local-miui-removed-priv-apps := 
 
-local-miui-modified-apps := miuisystem MiuiHome
+local-miui-modified-apps := miuisystem
 
 # All apps need to be removed from original ZIP file
 #local-remove-apps   := 
@@ -54,7 +54,6 @@ local-pre-zip-misc:
 	@echo Update boot.img
 	cp other/boot.img $(ZIP_DIR)/boot.img
 
-	cp -rf other/system $(ZIP_DIR)/
 
 	@echo goodbye! miui prebuilt binaries!
 	cp -rf stockrom/system/bin/app_process $(ZIP_DIR)/system/bin/app_process
