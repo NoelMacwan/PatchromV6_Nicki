@@ -3,9 +3,9 @@
 # ngedapuk onli
 #
 
-PORT_BUILD=/home/noelmacwan/miui/build
+PORT_BUILD=/home/noelmacwan/patchrom/build
 
-PORT_ROOT=/home/noelmacwan/miui/patchrom
+PORT_ROOT=/home/noelmacwan/patchrom/patchrom
 
 # The original zip file, MUST be specified by each product
 local-zip-file     := stockrom.zip
